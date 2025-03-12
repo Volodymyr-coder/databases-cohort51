@@ -8,7 +8,7 @@ connection.connect((err) => {
     console.error('Error:', err.stack);
     return;
   }
-  console.log('you are connect to DB with threadId:', connection.threadId);
+  console.log('connect to DB with threadId:', connection.threadId);
   createInvitee();
   createRoom();
   createMeeting();
