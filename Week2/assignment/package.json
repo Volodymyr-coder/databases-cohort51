@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node keys.js",
     "start2": "node relationships.js",
-    "start3": "node joins.js"
+    "start3": "node joins.js",
+    "start4": "node aggregateFunc.js"
   },
   "keywords": [],
   "author": "",

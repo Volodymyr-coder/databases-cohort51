@@ -41,12 +41,12 @@ async function createAuthorsDB() {
     ('Serkan Orman', 'Tilburg Zuid', '1982-04-17', 55, 'Female', 5),
     ('Dmitriy Krivula', 'Karazin Univer', '1970-05-14', 65, 'Male', NULL),
     ('Hanna Baker', 'Amsterdam University', '1980-07-03', 45, 'Female', 3),
-    ('Ian Curtis', 'Princeton', '1991-02-15', 34, 'Male', 4),
-    ('Julia Nazarenko', 'Yale University', '1967-11-20', 58, 'Female', NULL),
+    ('Ian Curtis', 'Breda University', '1991-02-15', 34, 'Male', 4),
+    ('Julia Nazarenko', 'NTY University', '1967-11-20', 58, 'Female', NULL),
     ('Sergiy Tushen', 'Lucca Univ', '1983-10-30', 42, 'Male', 6),
     ('Natalia Chala', 'UC Piza', '1990-09-09', 35, 'Female', 7),
-    ('Michael Scott', 'UCLA', '1965-05-05', 60, 'Male', NULL),
-    ('Antony Chern', 'University of Toronto', '1989-12-11', 33, 'Female', 8),
+    ('Michael Scott', 'LUCCA', '1965-05-05', 60, 'Male', NULL),
+    ('Antony Chern', 'NTY University', '1989-12-11', 33, 'Female', 8),
     ('Luuk Kopal', 'Breda University', '1995-08-31', 30, 'Male', 9)`;
 
     await connection.query(insertAuthorsInfo);
