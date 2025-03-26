@@ -1,0 +1,18 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "transactions-create-tables.js",
+  "scripts": {
+    "start": "node transactions-create-tables.js",
+    "start2": "node transactions-insert-values.js",
+    "start3": "node transaction.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "mysql2": "^3.14.0"
+  }
+}
