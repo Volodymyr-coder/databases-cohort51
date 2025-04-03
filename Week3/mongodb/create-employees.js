@@ -1,4 +1,4 @@
-const MongoClient = require("mongodb").MongoClient;
+import MongoClient from ("mongodb").MongoClient;
 const url = "mongodb://127.0.0.1:27017/";
 
 async function seedDatabase() {
