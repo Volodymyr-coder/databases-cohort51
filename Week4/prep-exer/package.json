@@ -1,0 +1,18 @@
+{
+  "name": "prep-exer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.1"
+  }
+}
